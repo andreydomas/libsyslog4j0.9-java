@@ -10,15 +10,5 @@ Package: libsyslog4j0.9-java
 Architecture: all
 Depends: ${java:Depends}, ${misc:Depends}
 Recommends: ${java:Recommends}
-Description: Short Description
- Long Description
-
-Package: libsyslog4j0.9-java-doc
-Architecture: all
-Section: doc
-Depends: ${java:Depends}, ${misc:Depends}
-Recommends: ${java:Recommends}
-Description: Short Description - doc
- Long Description
- .
- This package contains the Javadoc API
+Description: Complete Syslog Implementation for Java
+ Syslog4j provides client and server implementations of the BSD Syslog protocol (RFC 3164) and the Structured Syslog protocol (RFC 5424).
