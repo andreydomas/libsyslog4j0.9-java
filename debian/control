@@ -1,0 +1,24 @@
+Source: libsyslog4j0.9-java
+Section: java
+Priority: optional
+Maintainer: Andrey Domas <andrey.domas@gmail.com>
+Build-Depends: debhelper (>= 8), default-jdk, javahelper (>= 0.43) 
+Standards-Version: 3.9.3
+Homepage: http://syslog4j.org
+
+Package: libsyslog4j0.9-java
+Architecture: all
+Depends: ${java:Depends}, ${misc:Depends}
+Recommends: ${java:Recommends}
+Description: Short Description
+ Long Description
+
+Package: libsyslog4j0.9-java-doc
+Architecture: all
+Section: doc
+Depends: ${java:Depends}, ${misc:Depends}
+Recommends: ${java:Recommends}
+Description: Short Description - doc
+ Long Description
+ .
+ This package contains the Javadoc API
